@@ -15,11 +15,19 @@ h1 {
   font-weight: 700;
   font-weight: bold;
   color: black;
+  line-height: 1.5;
 }
 
 p {
  
   font-weight: normal;
+  font-size: 16px;
+  line-height: 30px; 
+}
+
+h2 {
+  font-family: var(--heading-font-family);
+font-size: 64px;
 }
 
 .hero {
@@ -49,4 +57,35 @@ p {
   line-height: 27px;
   padding: 18px 30px;
   border-radius: 4px;
+}
+
+.btn-branding-outline {
+  font-size: 18px;
+  line-height: 27px;
+  padding: 18px 30px;
+  border-radius: 4px;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  
+}
+
+.project-descriptions {
+  padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 39px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+  padding: 80px 20px;
+}
+  .project-descriptions {
+    padding: 0;
+    text-align: center;
+  }
 }
